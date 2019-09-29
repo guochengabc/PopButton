@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:popupbtn="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <com.gc.popbutton.PopButton
+            android:id="@+id/btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="按钮一"
+            android:textSize="13sp"
+            popupbtn:normalBg="@drawable/tab_bkg_line"
+            popupbtn:normalIcon="@drawable/arrow_down_shop"
+            popupbtn:pressBg="@drawable/tab_bkg_selected"
+            popupbtn:pressIcon="@drawable/arrow_up_shop" />
+
+        <com.gc.popbutton.PopButton
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="按钮2"
+            android:textSize="13sp"
+            popupbtn:normalBg="@drawable/tab_bkg_line"
+            popupbtn:normalIcon="@drawable/arrow_down_shop"
+            popupbtn:pressBg="@drawable/tab_bkg_selected"
+            popupbtn:pressIcon="@drawable/arrow_up_shop" />
+    </LinearLayout>
+</LinearLayout>

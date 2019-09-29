@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pop_theme_color">#0D79CD</color>
+    <color name="white">#ffffff</color>
+    <color name="normal">#fff</color>
+    <color name="press">#b0e0e6</color>
+    <color name="focue">#b0e0e6</color>
+</resources>
